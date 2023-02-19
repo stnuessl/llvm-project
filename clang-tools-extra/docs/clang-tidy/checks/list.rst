@@ -10,6 +10,7 @@ Clang-Tidy Checks
    abseil/*
    altera/*
    android/*
+   autosar/*
    boost/*
    bugprone/*
    cert/*
@@ -75,6 +76,7 @@ Clang-Tidy Checks
    :doc:`android-cloexec-pipe2 <android/cloexec-pipe2>`, "Yes"
    :doc:`android-cloexec-socket <android/cloexec-socket>`, "Yes"
    :doc:`android-comparison-in-temp-failure-retry <android/comparison-in-temp-failure-retry>`,
+   :doc:`autosar-memory-mapping <autosar/memory-mapping>`,
    :doc:`boost-use-ranges <boost/use-ranges>`, "Yes"
    :doc:`boost-use-to-string <boost/use-to-string>`, "Yes"
    :doc:`bugprone-argument-comment <bugprone/argument-comment>`, "Yes"

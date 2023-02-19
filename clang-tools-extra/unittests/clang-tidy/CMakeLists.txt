@@ -19,6 +19,7 @@ include_directories(BEFORE "${CMAKE_CURRENT_SOURCE_DIR}/../../include-cleaner/in
 
 add_extra_unittest(ClangTidyTests
   AddConstTest.cpp
+  AutosarModuleTest.cpp
   ClangTidyDiagnosticConsumerTest.cpp
   ClangTidyOptionsTest.cpp
   DeclRefExprUtilsTest.cpp
@@ -54,6 +55,7 @@ target_link_libraries(ClangTidyTests
   PRIVATE
   clangTidy
   clangTidyAndroidModule
+  clangTidyAutosarModule
   clangTidyGoogleModule
   clangTidyMiscModule
   clangTidyLLVMModule

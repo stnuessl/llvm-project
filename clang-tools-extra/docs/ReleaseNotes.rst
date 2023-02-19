@@ -98,6 +98,12 @@ Improvements to clang-tidy
 New checks
 ^^^^^^^^^^
 
+- New :doc:`autosar-memory-mapping
+  <clang-tidy/checks/autosar/memory-mapping>` check.
+
+  Detects multiple potential issues with regards to the AUTOSAR memory mapping
+  specification including unmapped or wrongly mapped variables and functions.
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

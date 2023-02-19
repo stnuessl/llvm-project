@@ -1,0 +1,1 @@
+/* Stubbed memory mapping header */

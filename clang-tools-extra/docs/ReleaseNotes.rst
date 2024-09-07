@@ -104,6 +104,12 @@ New checks
   Detects multiple potential issues with regards to the AUTOSAR memory mapping
   specification including unmapped or wrongly mapped variables and functions.
 
+- New :doc:`autosar-type-usage
+  <clang-tidy/checks/autosar/type-usage>` check.
+
+  Detects issues with regards to AUTOSAR types and their associated macro values
+  by essentially treating these types as enumerations.
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

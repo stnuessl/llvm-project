@@ -140,7 +140,7 @@ public:
 
       LLVM_FALLTHROUGH;
     case Keyword::SectionType::CONST:
-      // Check the keyword's alignment specification. Sections for constant 
+      // Check the keyword's alignment specification. Sections for constant
       // data are allowed to omit the alignment specification.
 
       if (Section == Keyword::SectionType::CONST && View.empty()) {
@@ -187,7 +187,8 @@ public:
                           StringRef FileName, bool IsAngled,
                           CharSourceRange FilenameRange,
                           OptionalFileEntryRef File, StringRef SearchPath,
-                          StringRef RelativePath, const Module *Imported,
+                          StringRef RelativePath, const Module *SuggestedModule,
+                          bool ModuleImported,
                           SrcMgr::CharacteristicKind FileType) override {
     llvm::SmallString<256> Path;
 
@@ -196,7 +197,8 @@ public:
     (void)IsAngled;
     (void)FilenameRange;
     (void)File;
-    (void)Imported;
+    (void)SuggestedModule;
+    (void)ModuleImported;
     (void)FileType;
 
     // Return if this is one of clangd's replayed inclusion which are already
@@ -233,7 +235,7 @@ public:
     if (!FileEntry)
       return;
 
-    auto Path = FileEntry->getName();
+    auto Path = FileEntry->tryGetRealPathName();
 
     if (Check->isMemMapFile(Path))
       return;
@@ -815,7 +817,7 @@ void MemoryMappingCheck::registerPPCallbacks(const SourceManager &SM,
 
       // As we are skipping the user entries from the header search options
       // there is no need to map search directories to user entries.
-      NewHSInfo.SetSearchPaths(Lookups, AngledDirIdx, SysDirIdx, false, Map);
+      NewHSInfo.SetSearchPaths(Lookups, AngledDirIdx, SysDirIdx, Map);
 
       auto &NewHSOpts = NewPP.getHeaderSearchInfo().getHeaderSearchOpts();
       auto &HSOpts = PP->getHeaderSearchInfo().getHeaderSearchOpts();

@@ -12,8 +12,8 @@
 #define E_OK 0u
 #define E_NOT_OK 1u
 
-#define RTE_E_OK 0u
-#define RTE_E_INVALID 1u
+#define RTE_E_OK ((Std_ReturnType) E_OK)
+#define RTE_E_INVALID ((Std_ReturnType) E_NOT_OK)
 
 #define NULL_PTR ((void *) 0)
 

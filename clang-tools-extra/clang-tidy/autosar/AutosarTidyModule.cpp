@@ -10,6 +10,7 @@
 #include "../ClangTidyModule.h"
 #include "../ClangTidyModuleRegistry.h"
 #include "MemoryMappingCheck.h"
+#include "TypeUsageCheck.h"
 
 namespace clang::tidy {
 namespace autosar {
@@ -18,6 +19,7 @@ class AutosarModule : public ClangTidyModule {
 public:
   void addCheckFactories(ClangTidyCheckFactories &CheckFactories) override {
     CheckFactories.registerCheck<MemoryMappingCheck>("autosar-memory-mapping");
+    CheckFactories.registerCheck<TypeUsageCheck>("autosar-type-usage");
   }
 };
 

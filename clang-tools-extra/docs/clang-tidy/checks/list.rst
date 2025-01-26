@@ -76,8 +76,9 @@ Clang-Tidy Checks
    :doc:`android-cloexec-pipe2 <android/cloexec-pipe2>`, "Yes"
    :doc:`android-cloexec-socket <android/cloexec-socket>`, "Yes"
    :doc:`android-comparison-in-temp-failure-retry <android/comparison-in-temp-failure-retry>`,
+   :doc:`autosar-interface-connected <autosar/interface-connected>`,
    :doc:`autosar-memory-mapping <autosar/memory-mapping>`,
-   :doc:`autosar-type-usage <autosar/type-usage>`, "Yes"
+   :doc:`autosar-type-usage <autosar/type-usage>`,
    :doc:`boost-use-ranges <boost/use-ranges>`, "Yes"
    :doc:`boost-use-to-string <boost/use-to-string>`, "Yes"
    :doc:`bugprone-argument-comment <bugprone/argument-comment>`, "Yes"

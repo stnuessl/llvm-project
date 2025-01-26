@@ -98,6 +98,12 @@ Improvements to clang-tidy
 New checks
 ^^^^^^^^^^
 
+- New :doc:`autosar-interface-connected
+  <clang-tidy/checks/autosar/interface-connected>` check.
+
+  Checks automatically generated AUTOSAR interfaces and emits appropriate
+  diagnostics if unconnected interfaces are detected.
+
 - New :doc:`autosar-memory-mapping
   <clang-tidy/checks/autosar/memory-mapping>` check.
 

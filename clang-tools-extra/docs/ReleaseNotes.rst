@@ -176,6 +176,12 @@ New checks
   since C23 and C++23, uses of ``#elif`` that can be simplified to ``#elifdef``
   or ``#elifndef``.
 
+- New :doc:`autosar-interface-connected
+  <clang-tidy/checks/autosar/interface-connected>` check.
+
+  Checks automatically generated AUTOSAR interfaces and emits appropriate
+  diagnostics if unconnected interfaces are detected.
+
 - New :doc:`autosar-memory-mapping
   <clang-tidy/checks/autosar/memory-mapping>` check.
 

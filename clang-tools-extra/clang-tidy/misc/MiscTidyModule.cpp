@@ -19,6 +19,7 @@
 #include "MisleadingIdentifier.h"
 #include "MisplacedConstCheck.h"
 #include "NewDeleteOverloadsCheck.h"
+#include "NoCommaOperatorCheck.h"
 #include "NoRecursionCheck.h"
 #include "NonCopyableObjects.h"
 #include "NonPrivateMemberVariablesInClassesCheck.h"
@@ -57,6 +58,8 @@ public:
     CheckFactories.registerCheck<MisplacedConstCheck>("misc-misplaced-const");
     CheckFactories.registerCheck<NewDeleteOverloadsCheck>(
         "misc-new-delete-overloads");
+    CheckFactories.registerCheck<NoCommaOperatorCheck>(
+        "misc-no-comma-operator");
     CheckFactories.registerCheck<NoRecursionCheck>("misc-no-recursion");
     CheckFactories.registerCheck<NonCopyableObjectsCheck>(
         "misc-non-copyable-objects");

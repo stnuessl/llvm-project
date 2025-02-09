@@ -121,6 +121,12 @@ New checks
   Detects issues with regards to AUTOSAR types and their associated macro values
   by essentially treating these types as enumerations.
 
+- New :doc:`misc-no-comma-operator
+  <clang-tidy/checks/misc/no-comma-operator>` check.
+
+  Detects usage of the comma operator, which is considered bad practice
+  according to coding standards like `MISRA C <https://misra.org.uk>`_.
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

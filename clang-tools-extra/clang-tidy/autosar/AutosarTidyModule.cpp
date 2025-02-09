@@ -9,6 +9,7 @@
 #include "../ClangTidyModule.h"
 #include "../ClangTidyModuleRegistry.h"
 #include "InterfaceConnectedCheck.h"
+#include "MacroInterfaceCheck.h"
 #include "MemoryMappingCheck.h"
 #include "TypeUsageCheck.h"
 
@@ -20,6 +21,8 @@ public:
   void addCheckFactories(ClangTidyCheckFactories &CheckFactories) override {
     CheckFactories.registerCheck<InterfaceConnectedCheck>(
         "autosar-interface-connected");
+    CheckFactories.registerCheck<MacroInterfaceCheck>(
+        "autosar-macro-interface");
     CheckFactories.registerCheck<MemoryMappingCheck>("autosar-memory-mapping");
     CheckFactories.registerCheck<TypeUsageCheck>("autosar-type-usage");
   }

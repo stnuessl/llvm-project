@@ -6,6 +6,7 @@ set(LLVM_LINK_COMPONENTS
 add_clang_library(clangTidyAutosarModule
   AutosarTidyModule.cpp
   InterfaceConnectedCheck.cpp
+  MacroInterfaceCheck.cpp
   MemoryMappingCheck.cpp
   TypeUsageCheck.cpp
 

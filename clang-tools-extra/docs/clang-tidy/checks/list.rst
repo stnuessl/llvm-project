@@ -77,6 +77,7 @@ Clang-Tidy Checks
    :doc:`android-cloexec-socket <android/cloexec-socket>`, "Yes"
    :doc:`android-comparison-in-temp-failure-retry <android/comparison-in-temp-failure-retry>`,
    :doc:`autosar-interface-connected <autosar/interface-connected>`,
+   :doc:`autosar-macro-interface <autosar/macro-interface>`, "Yes"
    :doc:`autosar-memory-mapping <autosar/memory-mapping>`,
    :doc:`autosar-type-usage <autosar/type-usage>`,
    :doc:`boost-use-ranges <boost/use-ranges>`, "Yes"

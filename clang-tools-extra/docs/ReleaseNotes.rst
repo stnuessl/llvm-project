@@ -104,6 +104,11 @@ New checks
   Checks automatically generated AUTOSAR interfaces and emits appropriate
   diagnostics if unconnected interfaces are detected.
 
+- New :doc:`autosar-macro-interface
+  <clang-tidy/checks/autosar/macro-interface>` check.
+
+  FIXME: add release notes.
+
 - New :doc:`autosar-memory-mapping
   <clang-tidy/checks/autosar/memory-mapping>` check.
 

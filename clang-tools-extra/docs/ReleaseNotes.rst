@@ -127,6 +127,12 @@ New checks
   Detects usage of the comma operator, which is considered bad practice
   according to coding standards like `MISRA C <https://misra.org.uk>`_.
 
+- New :doc:`misc-no-union
+  <clang-tidy/checks/misc/no-union>` check.
+
+  Detects the declarations of unions which is considered to be
+  bad practice by coding standards like `MISRA C <https://misra.org.uk>`_.
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

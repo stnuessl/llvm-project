@@ -32,6 +32,7 @@ add_clang_library(clangTidyMiscModule
   NoCommaOperatorCheck.cpp
   NoRecursionCheck.cpp
   NoUnionCheck.cpp
+  NoVariableArrayCheck.cpp
   NonCopyableObjects.cpp
   NonPrivateMemberVariablesInClassesCheck.cpp
   RedundantExpressionCheck.cpp

@@ -22,6 +22,7 @@
 #include "NoCommaOperatorCheck.h"
 #include "NoRecursionCheck.h"
 #include "NoUnionCheck.h"
+#include "NoVariableArrayCheck.h"
 #include "NonCopyableObjects.h"
 #include "NonPrivateMemberVariablesInClassesCheck.h"
 #include "RedundantExpressionCheck.h"
@@ -64,6 +65,8 @@ public:
     CheckFactories.registerCheck<NoRecursionCheck>("misc-no-recursion");
     CheckFactories.registerCheck<NoUnionCheck>(
         "misc-no-union");
+    CheckFactories.registerCheck<NoVariableArrayCheck>(
+        "misc-no-variable-array");
     CheckFactories.registerCheck<NonCopyableObjectsCheck>(
         "misc-non-copyable-objects");
     CheckFactories.registerCheck<NonPrivateMemberVariablesInClassesCheck>(

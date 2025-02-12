@@ -130,8 +130,14 @@ New checks
 - New :doc:`misc-no-union
   <clang-tidy/checks/misc/no-union>` check.
 
-  Detects the declarations of unions which is considered to be
-  bad practice by coding standards like `MISRA C <https://misra.org.uk>`_.
+  Detects union declarations, which are considered bad practice according to
+  coding standards like `MISRA C <https://misra.org.uk>`_.
+
+- New :doc:`misc-no-variable-array
+  <clang-tidy/checks/misc/no-variable-array>` check.
+
+  Detects variable length array declarations, which are considered bad practice
+  according to coding standards like `MISRA C <https://misra.org.uk>`_.
 
 New check aliases
 ^^^^^^^^^^^^^^^^^

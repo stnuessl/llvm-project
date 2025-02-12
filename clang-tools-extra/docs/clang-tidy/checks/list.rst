@@ -265,6 +265,7 @@ Clang-Tidy Checks
    :doc:`misc-no-comma-operator <misc/no-comma-operator>`,
    :doc:`misc-no-recursion <misc/no-recursion>`,
    :doc:`misc-no-union <misc/no-union>`, "Yes"
+   :doc:`misc-no-variable-array <misc/no-variable-array>`, "Yes"
    :doc:`misc-non-copyable-objects <misc/non-copyable-objects>`,
    :doc:`misc-non-private-member-variables-in-classes <misc/non-private-member-variables-in-classes>`,
    :doc:`misc-redundant-expression <misc/redundant-expression>`, "Yes"

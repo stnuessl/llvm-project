@@ -61,6 +61,7 @@ add_subdirectory(cert)
 add_subdirectory(concurrency)
 add_subdirectory(cppcoreguidelines)
 add_subdirectory(darwin)
+add_subdirectory(embedded)
 add_subdirectory(fuchsia)
 add_subdirectory(google)
 add_subdirectory(hicpp)
@@ -89,6 +90,7 @@ set(ALL_CLANG_TIDY_CHECKS
   clangTidyConcurrencyModule
   clangTidyCppCoreGuidelinesModule
   clangTidyDarwinModule
+  clangTidyEmbeddedModule
   clangTidyFuchsiaModule
   clangTidyGoogleModule
   clangTidyHICPPModule

@@ -116,6 +116,12 @@ New checks
   Detects issues with regards to AUTOSAR types and their associated macro values
   by essentially treating these types as enumerations.
 
+- New :doc:`embedded-no-early-return
+  <clang-tidy/checks/embedded/no-early-return>` check.
+
+  Detects early return statements that are not placed at the end of
+  a function body’s compound statement.
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

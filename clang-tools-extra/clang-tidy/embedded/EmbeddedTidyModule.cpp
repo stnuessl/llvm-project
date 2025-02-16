@@ -1,5 +1,4 @@
-//===------- EmbeddedTidyModule.cpp - clang-tidy
-//----------------------------===//
+//===------- EmbeddedTidyModule.cpp - clang-tidy --------------------------===//
 //
 // Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
 // See https://llvm.org/LICENSE.txt for license information.
@@ -9,6 +8,7 @@
 
 #include "../ClangTidyModule.h"
 #include "../ClangTidyModuleRegistry.h"
+#include "NoEarlyReturnCheck.h"
 
 namespace clang::tidy {
 namespace embedded {
@@ -16,6 +16,8 @@ namespace embedded {
 class EmbeddedModule : public ClangTidyModule {
 public:
   void addCheckFactories(ClangTidyCheckFactories &CheckFactories) override {
+    CheckFactories.registerCheck<NoEarlyReturnCheck>(
+        "embedded-no-early-return");
   }
 };
 

@@ -116,6 +116,12 @@ New checks
   Detects issues with regards to AUTOSAR types and their associated macro values
   by essentially treating these types as enumerations.
 
+- New :doc:`embedded-missing-compound
+  <clang-tidy/checks/embedded/missing-compound>` check.
+
+  Detects `do`, `for`, `while`, `if`, `else`, and `switch` statements where the
+  body is not a compound statement.
+
 - New :doc:`embedded-missing-else
   <clang-tidy/checks/embedded/missing-else>` check.
 

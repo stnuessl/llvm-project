@@ -8,6 +8,7 @@
 
 #include "../ClangTidyModule.h"
 #include "../ClangTidyModuleRegistry.h"
+#include "MissingCompoundCheck.h"
 #include "MissingElseCheck.h"
 #include "NoEarlyReturnCheck.h"
 
@@ -17,6 +18,8 @@ namespace embedded {
 class EmbeddedModule : public ClangTidyModule {
 public:
   void addCheckFactories(ClangTidyCheckFactories &CheckFactories) override {
+    CheckFactories.registerCheck<MissingCompoundCheck>(
+        "embedded-missing-compound");
     CheckFactories.registerCheck<MissingElseCheck>(
         "embedded-missing-else");
     CheckFactories.registerCheck<NoEarlyReturnCheck>(

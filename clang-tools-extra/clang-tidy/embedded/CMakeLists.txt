@@ -5,6 +5,7 @@ set(LLVM_LINK_COMPONENTS
 
 add_clang_library(clangTidyEmbeddedModule
   EmbeddedTidyModule.cpp
+  MissingElseCheck.cpp
   NoEarlyReturnCheck.cpp
 
   LINK_LIBS

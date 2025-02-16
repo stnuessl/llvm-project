@@ -116,6 +116,13 @@ New checks
   Detects issues with regards to AUTOSAR types and their associated macro values
   by essentially treating these types as enumerations.
 
+- New :doc:`embedded-missing-else
+  <clang-tidy/checks/embedded/missing-else>` check.
+
+  Detects `if` ... `else if` constructs that lack a terminating `else`
+  statement. This pattern may be interpreted similarly to a `switch`
+  statement without a `default` case.
+
 - New :doc:`embedded-no-early-return
   <clang-tidy/checks/embedded/no-early-return>` check.
 

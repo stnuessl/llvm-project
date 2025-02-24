@@ -129,6 +129,11 @@ New checks
   statement. This pattern may be interpreted similarly to a `switch`
   statement without a `default` case.
 
+- New :doc:`embedded-missing-static
+  <clang-tidy/checks/embedded/missing-static>` check.
+
+  Detects inline function declarations that lack the static storage qualifier.
+
 - New :doc:`embedded-no-comma-operator
   <clang-tidy/checks/embedded/no-comma-operator>` check.
 

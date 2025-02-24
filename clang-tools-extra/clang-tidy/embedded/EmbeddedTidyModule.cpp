@@ -10,6 +10,7 @@
 #include "../ClangTidyModuleRegistry.h"
 #include "MissingCompoundCheck.h"
 #include "MissingElseCheck.h"
+#include "MissingStaticCheck.h"
 #include "NoCommaOperatorCheck.h"
 #include "NoEarlyReturnCheck.h"
 #include "NoUnionCheck.h"
@@ -24,6 +25,8 @@ public:
         "embedded-missing-compound");
     CheckFactories.registerCheck<MissingElseCheck>(
         "embedded-missing-else");
+    CheckFactories.registerCheck<MissingStaticCheck>(
+        "embedded-missing-static");
     CheckFactories.registerCheck<NoCommaOperatorCheck>(
         "embedded-no-comma-operator");
     CheckFactories.registerCheck<NoEarlyReturnCheck>(

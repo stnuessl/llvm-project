@@ -8,6 +8,7 @@ add_clang_library(clangTidyEmbeddedModule
   MissingCompoundCheck.cpp
   MissingElseCheck.cpp
   NoEarlyReturnCheck.cpp
+  NoUnionCheck.cpp
 
   LINK_LIBS
   clangTidy

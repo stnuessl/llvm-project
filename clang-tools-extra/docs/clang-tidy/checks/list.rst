@@ -216,6 +216,7 @@ Clang-Tidy Checks
    :doc:`embedded-missing-compound <embedded/missing-compound>`, "Yes"
    :doc:`embedded-missing-else <embedded/missing-else>`, "Yes"
    :doc:`embedded-no-early-return <embedded/no-early-return>`,
+   :doc:`embedded-no-union <embedded/no-union>`,
    :doc:`fuchsia-default-arguments-calls <fuchsia/default-arguments-calls>`,
    :doc:`fuchsia-default-arguments-declarations <fuchsia/default-arguments-declarations>`, "Yes"
    :doc:`fuchsia-multiple-inheritance <fuchsia/multiple-inheritance>`,

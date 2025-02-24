@@ -135,6 +135,12 @@ New checks
   Detects early return statements that are not placed at the end of
   a function body’s compound statement.
 
+- New :doc:`embedded-no-union
+  <clang-tidy/checks/embedded/no-union>` check.
+
+  Detects union declarations, which are considered bad practice according to
+  coding standards like `MISRA C <https://misra.org.uk>`_.
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

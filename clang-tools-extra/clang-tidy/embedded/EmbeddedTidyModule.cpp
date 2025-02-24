@@ -11,6 +11,7 @@
 #include "MissingCompoundCheck.h"
 #include "MissingElseCheck.h"
 #include "NoEarlyReturnCheck.h"
+#include "NoUnionCheck.h"
 
 namespace clang::tidy {
 namespace embedded {
@@ -24,6 +25,8 @@ public:
         "embedded-missing-else");
     CheckFactories.registerCheck<NoEarlyReturnCheck>(
         "embedded-no-early-return");
+    CheckFactories.registerCheck<NoUnionCheck>(
+        "embedded-no-union");
   }
 };
 

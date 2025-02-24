@@ -146,6 +146,11 @@ New checks
   Detects early return statements that are not placed at the end of
   a function body’s compound statement.
 
+- New :doc:`embedded-no-partial-array-init
+  <clang-tidy/checks/embedded/no-partial-array-init>` check.
+
+  Detects partial array initializiations.
+
 - New :doc:`embedded-no-union
   <clang-tidy/checks/embedded/no-union>` check.
 

@@ -10,6 +10,7 @@ add_clang_library(clangTidyEmbeddedModule
   MissingStaticCheck.cpp
   NoCommaOperatorCheck.cpp
   NoEarlyReturnCheck.cpp
+  NoPartialArrayInitCheck.cpp
   NoUnionCheck.cpp
 
   LINK_LIBS

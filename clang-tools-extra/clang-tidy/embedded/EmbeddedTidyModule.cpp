@@ -13,6 +13,7 @@
 #include "MissingStaticCheck.h"
 #include "NoCommaOperatorCheck.h"
 #include "NoEarlyReturnCheck.h"
+#include "NoPartialArrayInitCheck.h"
 #include "NoUnionCheck.h"
 
 namespace clang::tidy {
@@ -31,6 +32,8 @@ public:
         "embedded-no-comma-operator");
     CheckFactories.registerCheck<NoEarlyReturnCheck>(
         "embedded-no-early-return");
+    CheckFactories.registerCheck<NoPartialArrayInitCheck>(
+        "embedded-no-partial-array-init");
     CheckFactories.registerCheck<NoUnionCheck>(
         "embedded-no-union");
   }

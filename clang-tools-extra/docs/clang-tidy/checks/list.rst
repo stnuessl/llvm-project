@@ -218,6 +218,7 @@ Clang-Tidy Checks
    :doc:`embedded-missing-static <embedded/missing-static>`, "Yes"
    :doc:`embedded-no-comma-operator <embedded/no-comma-operator>`,
    :doc:`embedded-no-early-return <embedded/no-early-return>`,
+   :doc:`embedded-no-partial-array-init <embedded/no-partial-array-init>`, "Yes"
    :doc:`embedded-no-union <embedded/no-union>`,
    :doc:`fuchsia-default-arguments-calls <fuchsia/default-arguments-calls>`,
    :doc:`fuchsia-default-arguments-declarations <fuchsia/default-arguments-declarations>`, "Yes"

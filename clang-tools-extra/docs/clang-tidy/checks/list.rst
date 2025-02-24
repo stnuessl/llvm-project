@@ -215,6 +215,7 @@ Clang-Tidy Checks
    :doc:`darwin-dispatch-once-nonstatic <darwin/dispatch-once-nonstatic>`, "Yes"
    :doc:`embedded-missing-compound <embedded/missing-compound>`, "Yes"
    :doc:`embedded-missing-else <embedded/missing-else>`, "Yes"
+   :doc:`embedded-no-comma-operator <embedded/no-comma-operator>`,
    :doc:`embedded-no-early-return <embedded/no-early-return>`,
    :doc:`embedded-no-union <embedded/no-union>`,
    :doc:`fuchsia-default-arguments-calls <fuchsia/default-arguments-calls>`,

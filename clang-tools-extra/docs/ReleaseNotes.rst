@@ -129,6 +129,12 @@ New checks
   statement. This pattern may be interpreted similarly to a `switch`
   statement without a `default` case.
 
+- New :doc:`embedded-no-comma-operator
+  <clang-tidy/checks/embedded/no-comma-operator>` check.
+
+  Detects usage of the comma operator, which is considered bad practice
+  according to coding standards like `MISRA C <https://misra.org.uk>`_.
+
 - New :doc:`embedded-no-early-return
   <clang-tidy/checks/embedded/no-early-return>` check.
 

@@ -8,6 +8,7 @@
 
 #include "../ClangTidyModule.h"
 #include "../ClangTidyModuleRegistry.h"
+#include "DefaultCasePositionCheck.h"
 #include "MissingCompoundCheck.h"
 #include "MissingElseCheck.h"
 #include "MissingStaticCheck.h"
@@ -22,6 +23,8 @@ namespace embedded {
 class EmbeddedModule : public ClangTidyModule {
 public:
   void addCheckFactories(ClangTidyCheckFactories &CheckFactories) override {
+    CheckFactories.registerCheck<DefaultCasePositionCheck>(
+        "embedded-default-case-position");
     CheckFactories.registerCheck<MissingCompoundCheck>(
         "embedded-missing-compound");
     CheckFactories.registerCheck<MissingElseCheck>(

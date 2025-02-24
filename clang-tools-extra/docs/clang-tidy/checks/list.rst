@@ -213,6 +213,7 @@ Clang-Tidy Checks
    :doc:`cppcoreguidelines-virtual-class-destructor <cppcoreguidelines/virtual-class-destructor>`, "Yes"
    :doc:`darwin-avoid-spinlock <darwin/avoid-spinlock>`,
    :doc:`darwin-dispatch-once-nonstatic <darwin/dispatch-once-nonstatic>`, "Yes"
+   :doc:`embedded-default-case-position <embedded/default-case-position>`,
    :doc:`embedded-missing-compound <embedded/missing-compound>`, "Yes"
    :doc:`embedded-missing-else <embedded/missing-else>`, "Yes"
    :doc:`embedded-missing-static <embedded/missing-static>`, "Yes"

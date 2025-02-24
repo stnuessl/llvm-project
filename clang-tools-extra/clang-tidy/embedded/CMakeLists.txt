@@ -4,6 +4,7 @@ set(LLVM_LINK_COMPONENTS
   )
 
 add_clang_library(clangTidyEmbeddedModule
+  DefaultCasePositionCheck.cpp
   EmbeddedTidyModule.cpp
   MissingCompoundCheck.cpp
   MissingElseCheck.cpp

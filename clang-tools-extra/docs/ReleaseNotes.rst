@@ -116,6 +116,12 @@ New checks
   Detects issues with regards to AUTOSAR types and their associated macro values
   by essentially treating these types as enumerations.
 
+- New :doc:`embedded-default-case-position
+  <clang-tidy/checks/embedded/default-case-position>` check.
+
+  Detects default statements within switch statements that are not located at
+  the first or last position in the case list.
+
 - New :doc:`embedded-missing-compound
   <clang-tidy/checks/embedded/missing-compound>` check.
 

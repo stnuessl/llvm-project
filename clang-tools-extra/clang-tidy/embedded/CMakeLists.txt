@@ -13,6 +13,7 @@ add_clang_library(clangTidyEmbeddedModule
   NoEarlyReturnCheck.cpp
   NoPartialArrayInitCheck.cpp
   NoUnionCheck.cpp
+  NoVariableLengthArrayCheck.cpp
 
   LINK_LIBS
   clangTidy

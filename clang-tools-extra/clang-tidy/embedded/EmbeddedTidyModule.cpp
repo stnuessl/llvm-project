@@ -16,6 +16,7 @@
 #include "NoEarlyReturnCheck.h"
 #include "NoPartialArrayInitCheck.h"
 #include "NoUnionCheck.h"
+#include "NoVariableLengthArrayCheck.h"
 
 namespace clang::tidy {
 namespace embedded {
@@ -39,6 +40,8 @@ public:
         "embedded-no-partial-array-init");
     CheckFactories.registerCheck<NoUnionCheck>(
         "embedded-no-union");
+    CheckFactories.registerCheck<NoVariableLengthArrayCheck>(
+        "embedded-no-variable-length-array");
   }
 };
 

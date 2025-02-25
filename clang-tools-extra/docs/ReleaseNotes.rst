@@ -163,6 +163,11 @@ New checks
   Detects union declarations, which are considered bad practice according to
   coding standards like `MISRA C <https://misra.org.uk>`_.
 
+- New :doc:`embedded-no-variable-length-array
+  <clang-tidy/checks/embedded/no-variable-length-array>` check.
+
+  Detects declarations of variable length arrays.
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

@@ -14,6 +14,7 @@
 #include "MissingStaticCheck.h"
 #include "NoCommaOperatorCheck.h"
 #include "NoEarlyReturnCheck.h"
+#include "NoFlexibleArrayMemberCheck.h"
 #include "NoPartialArrayInitCheck.h"
 #include "NoUnionCheck.h"
 #include "NoVariableLengthArrayCheck.h"
@@ -36,6 +37,8 @@ public:
         "embedded-no-comma-operator");
     CheckFactories.registerCheck<NoEarlyReturnCheck>(
         "embedded-no-early-return");
+    CheckFactories.registerCheck<NoFlexibleArrayMemberCheck>(
+        "embedded-no-flexible-array-member");
     CheckFactories.registerCheck<NoPartialArrayInitCheck>(
         "embedded-no-partial-array-init");
     CheckFactories.registerCheck<NoUnionCheck>(

@@ -152,6 +152,11 @@ New checks
   Detects early return statements that are not placed at the end of
   a function body’s compound statement.
 
+- New :doc:`embedded-no-flexible-array-member
+  <clang-tidy/checks/embedded/no-flexible-array-member>` check.
+
+  Detects flexible array member declarations.
+
 - New :doc:`embedded-no-partial-array-init
   <clang-tidy/checks/embedded/no-partial-array-init>` check.
 

@@ -11,6 +11,7 @@ add_clang_library(clangTidyEmbeddedModule
   MissingStaticCheck.cpp
   NoCommaOperatorCheck.cpp
   NoEarlyReturnCheck.cpp
+  NoFlexibleArrayMemberCheck.cpp
   NoPartialArrayInitCheck.cpp
   NoUnionCheck.cpp
   NoVariableLengthArrayCheck.cpp

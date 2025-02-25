@@ -221,6 +221,7 @@ Clang-Tidy Checks
    :doc:`embedded-no-early-return <embedded/no-early-return>`,
    :doc:`embedded-no-flexible-array-member <embedded/no-flexible-array-member>`,
    :doc:`embedded-no-partial-array-init <embedded/no-partial-array-init>`, "Yes"
+   :doc:`embedded-no-stdarg-features <embedded/no-stdarg-features>`,
    :doc:`embedded-no-union <embedded/no-union>`,
    :doc:`embedded-no-variable-length-array <embedded/no-variable-length-array>`,
    :doc:`fuchsia-default-arguments-calls <fuchsia/default-arguments-calls>`,

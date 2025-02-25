@@ -162,6 +162,11 @@ New checks
 
   Detects partial array initializiations.
 
+- New :doc:`embedded-no-stdarg-features
+  <clang-tidy/checks/embedded/no-stdarg-features>` check.
+
+  Detects usage of types and macros from `stdarg.h`.
+
 - New :doc:`embedded-no-union
   <clang-tidy/checks/embedded/no-union>` check.
 

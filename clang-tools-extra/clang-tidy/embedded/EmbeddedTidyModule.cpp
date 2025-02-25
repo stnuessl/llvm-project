@@ -16,6 +16,7 @@
 #include "NoEarlyReturnCheck.h"
 #include "NoFlexibleArrayMemberCheck.h"
 #include "NoPartialArrayInitCheck.h"
+#include "NoStdargFeaturesCheck.h"
 #include "NoUnionCheck.h"
 #include "NoVariableLengthArrayCheck.h"
 
@@ -41,6 +42,8 @@ public:
         "embedded-no-flexible-array-member");
     CheckFactories.registerCheck<NoPartialArrayInitCheck>(
         "embedded-no-partial-array-init");
+    CheckFactories.registerCheck<NoStdargFeaturesCheck>(
+        "embedded-no-stdarg-features");
     CheckFactories.registerCheck<NoUnionCheck>(
         "embedded-no-union");
     CheckFactories.registerCheck<NoVariableLengthArrayCheck>(

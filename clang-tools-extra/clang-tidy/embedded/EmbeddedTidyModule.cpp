@@ -10,6 +10,7 @@
 #include "../ClangTidyModuleRegistry.h"
 #include "DefaultCasePositionCheck.h"
 #include "MissingCompoundCheck.h"
+#include "MissingDefaultLabelCheck.h"
 #include "MissingElseCheck.h"
 #include "MissingStaticCheck.h"
 #include "NoCommaOperatorCheck.h"
@@ -30,6 +31,8 @@ public:
         "embedded-default-case-position");
     CheckFactories.registerCheck<MissingCompoundCheck>(
         "embedded-missing-compound");
+    CheckFactories.registerCheck<MissingDefaultLabelCheck>(
+        "embedded-missing-default-label");
     CheckFactories.registerCheck<MissingElseCheck>(
         "embedded-missing-else");
     CheckFactories.registerCheck<MissingStaticCheck>(

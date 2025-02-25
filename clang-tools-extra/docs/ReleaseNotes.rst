@@ -128,6 +128,11 @@ New checks
   Detects `do`, `for`, `while`, `if`, `else`, and `switch` statements where the
   body is not a compound statement.
 
+- New :doc:`embedded-missing-default-label
+  <clang-tidy/checks/embedded/missing-default-label>` check.
+
+  Detects `switch` statements without a `default` label.
+
 - New :doc:`embedded-missing-else
   <clang-tidy/checks/embedded/missing-else>` check.
 

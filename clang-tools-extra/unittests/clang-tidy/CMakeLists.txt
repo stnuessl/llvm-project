@@ -28,6 +28,7 @@ add_extra_unittest(ClangTidyTests
   GlobListTest.cpp
   GoogleModuleTest.cpp
   LLVMModuleTest.cpp
+  MisracModuleTest.cpp
   ModernizeModuleTest.cpp
   NamespaceAliaserTest.cpp
   ObjCModuleTest.cpp
@@ -59,6 +60,7 @@ target_link_libraries(ClangTidyTests
   clangTidyGoogleModule
   clangTidyMiscModule
   clangTidyLLVMModule
+  clangTidyMisracModule
   clangTidyModernizeModule
   clangTidyObjCModule
   clangTidyReadabilityModule

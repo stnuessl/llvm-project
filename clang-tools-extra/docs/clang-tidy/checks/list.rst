@@ -25,6 +25,7 @@ Clang-Tidy Checks
    llvm/*
    llvmlibc/*
    misc/*
+   misrac/*
    modernize/*
    mpi/*
    objc/*
@@ -283,6 +284,7 @@ Clang-Tidy Checks
    :doc:`misc-unused-using-decls <misc/unused-using-decls>`, "Yes"
    :doc:`misc-use-anonymous-namespace <misc/use-anonymous-namespace>`,
    :doc:`misc-use-internal-linkage <misc/use-internal-linkage>`, "Yes"
+   :doc:`misrac-rule-10p1 <misrac/rule-10p1>`,
    :doc:`modernize-avoid-bind <modernize/avoid-bind>`, "Yes"
    :doc:`modernize-avoid-c-arrays <modernize/avoid-c-arrays>`,
    :doc:`modernize-concat-nested-namespaces <modernize/concat-nested-namespaces>`, "Yes"

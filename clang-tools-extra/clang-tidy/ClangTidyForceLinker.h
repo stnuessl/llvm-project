@@ -99,6 +99,11 @@ extern volatile int MiscModuleAnchorSource;
 static int LLVM_ATTRIBUTE_UNUSED MiscModuleAnchorDestination =
     MiscModuleAnchorSource;
 
+// This anchor is used to force the linker to link the MisracModule.
+extern volatile int MisracModuleAnchorSource;
+static int LLVM_ATTRIBUTE_UNUSED MisracModuleAnchorDestination =
+    MisracModuleAnchorSource;
+
 // This anchor is used to force the linker to link the ModernizeModule.
 extern volatile int ModernizeModuleAnchorSource;
 static int LLVM_ATTRIBUTE_UNUSED ModernizeModuleAnchorDestination =

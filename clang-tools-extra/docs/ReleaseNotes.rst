@@ -194,6 +194,12 @@ New checks
   Detects issues with regards to AUTOSAR types and their associated macro values
   by essentially treating these types as enumerations.
 
+- New :doc:`misrac-rule-10p1
+  <clang-tidy/checks/misrac/rule-10p1>` check.
+
+  Detects issues in accordance with MISRA C rule 10.1:
+  "`Operands shall not be of an inappropriate essential type`".
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

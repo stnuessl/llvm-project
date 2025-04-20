@@ -200,6 +200,13 @@ New checks
   Detects issues in accordance with MISRA C rule 10.1:
   "`Operands shall not be of an inappropriate essential type`".
 
+- New :doc:`misrac-rule-10p2
+  <clang-tidy/checks/misrac/rule-10p2>` check.
+
+  Detects issues in accordance with MISRA C rule 10.2:
+  "`Expressions of essentially  character type shall not be used inappropriately
+  in addition and subtraction operations`".
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

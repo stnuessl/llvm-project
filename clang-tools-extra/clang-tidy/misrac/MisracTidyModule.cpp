@@ -9,6 +9,7 @@
 #include "../ClangTidyModule.h"
 #include "../ClangTidyModuleRegistry.h"
 #include "Rule10p1Check.h"
+#include "Rule10p2Check.h"
 
 namespace clang::tidy {
 namespace misrac {
@@ -18,6 +19,8 @@ public:
   void addCheckFactories(ClangTidyCheckFactories &CheckFactories) override {
     CheckFactories.registerCheck<Rule10p1Check>(
         "misrac-rule-10p1");
+    CheckFactories.registerCheck<Rule10p2Check>(
+        "misrac-rule-10p2");
   }
 };
 

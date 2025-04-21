@@ -250,6 +250,13 @@ New checks
   "`The value of a composite expression shall not be cast to a different
   essential type category or a wider essential type`".
 
+- New :doc:`misrac-rule-14p4
+  <clang-tidy/checks/misrac/rule-14p4>` check.
+
+  Detects issues in accordance with MISRA C rule 14.4:
+  "`The controlling expression of an if statement and the controlling
+  expression of an iteration- statement shall have essentially Boolean type`".
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

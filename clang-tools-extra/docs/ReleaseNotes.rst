@@ -214,6 +214,13 @@ New checks
   "`The value of an expression shall not be assigned to an object with a
   narrower essential type or of a different essential type category`".
 
+- New :doc:`misrac-rule-10p4
+  <clang-tidy/checks/misrac/rule-10p4>` check.
+
+  Detects issues in accordance with MISRA C rule 10.4:
+  "`Both operands of an operator in which the usual arithmetic conversions
+  are performed shall have the same essential type category`".
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

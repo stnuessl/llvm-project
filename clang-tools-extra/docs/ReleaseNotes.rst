@@ -221,6 +221,13 @@ New checks
   "`Both operands of an operator in which the usual arithmetic conversions
   are performed shall have the same essential type category`".
 
+- New :doc:`misrac-rule-10p5
+  <clang-tidy/checks/misrac/rule-10p5>` check.
+
+  Detects issues in accordance with MISRA C rule 10.5:
+  "`The value of an expression should not be cast to an inappropriate
+  essential type`".
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

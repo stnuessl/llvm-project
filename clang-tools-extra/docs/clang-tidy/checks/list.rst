@@ -286,6 +286,7 @@ Clang-Tidy Checks
    :doc:`misc-use-internal-linkage <misc/use-internal-linkage>`, "Yes"
    :doc:`misrac-rule-10p1 <misrac/rule-10p1>`,
    :doc:`misrac-rule-10p2 <misrac/rule-10p2>`,
+   :doc:`misrac-rule-10p3 <misrac/rule-10p3>`,
    :doc:`modernize-avoid-bind <modernize/avoid-bind>`, "Yes"
    :doc:`modernize-avoid-c-arrays <modernize/avoid-c-arrays>`,
    :doc:`modernize-concat-nested-namespaces <modernize/concat-nested-namespaces>`, "Yes"

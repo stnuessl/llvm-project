@@ -207,6 +207,13 @@ New checks
   "`Expressions of essentially  character type shall not be used inappropriately
   in addition and subtraction operations`".
 
+- New :doc:`misrac-rule-10p3
+  <clang-tidy/checks/misrac/rule-10p3>` check.
+
+  Detects issues in accordance with MISRA C rule 10.3:
+  "`The value of an expression shall not be assigned to an object with a
+  narrower essential type or of a different essential type category`".
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

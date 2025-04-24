@@ -228,6 +228,13 @@ New checks
   "`The value of an expression should not be cast to an inappropriate
   essential type`".
 
+- New :doc:`misrac-rule-10p6
+  <clang-tidy/checks/misrac/rule-10p6>` check.
+
+  Detects issues in accordance with MISRA C rule 10.6:
+  "`The value of a composite expression  shall not be assigned to an object
+  with wider essential type`".
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

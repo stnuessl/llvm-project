@@ -235,6 +235,14 @@ New checks
   "`The value of a composite expression  shall not be assigned to an object
   with wider essential type`".
 
+- New :doc:`misrac-rule-10p7
+  <clang-tidy/checks/misrac/rule-10p7>` check.
+
+  Detects issues in accordance with MISRA C rule 10.7:
+  "`If a composite expression is used as one operand of an operator in
+  which the usual arithmetic conversions are performed then the other
+  operand shall not have wider essential type`".
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

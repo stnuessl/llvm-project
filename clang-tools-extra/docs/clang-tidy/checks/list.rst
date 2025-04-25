@@ -290,6 +290,7 @@ Clang-Tidy Checks
    :doc:`misrac-rule-10p4 <misrac/rule-10p4>`,
    :doc:`misrac-rule-10p5 <misrac/rule-10p5>`,
    :doc:`misrac-rule-10p6 <misrac/rule-10p6>`,
+   :doc:`misrac-rule-10p7 <misrac/rule-10p7>`,
    :doc:`modernize-avoid-bind <modernize/avoid-bind>`, "Yes"
    :doc:`modernize-avoid-c-arrays <modernize/avoid-c-arrays>`,
    :doc:`modernize-concat-nested-namespaces <modernize/concat-nested-namespaces>`, "Yes"

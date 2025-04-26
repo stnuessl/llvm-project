@@ -250,6 +250,12 @@ New checks
   "`The value of a composite expression shall not be cast to a different
   essential type category or a wider essential type`".
 
+- New :doc:`misrac-rule-12p3
+  <clang-tidy/checks/misrac/rule-12p3>` check.
+
+  Detects issues in accordance with MISRA C rule 12.3:
+  "`The comma operator should not be used`".
+
 - New :doc:`misrac-rule-14p4
   <clang-tidy/checks/misrac/rule-14p4>` check.
 

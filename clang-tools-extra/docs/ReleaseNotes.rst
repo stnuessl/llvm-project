@@ -243,6 +243,13 @@ New checks
   which the usual arithmetic conversions are performed then the other
   operand shall not have wider essential type`".
 
+- New :doc:`misrac-rule-10p8
+  <clang-tidy/checks/misrac/rule-10p8>` check.
+
+  Detects issues in accordance with MISRA C rule 10.8:
+  "`The value of a composite expression shall not be cast to a different
+  essential type category or a wider essential type`".
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

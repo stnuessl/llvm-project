@@ -263,6 +263,12 @@ New checks
   "`The controlling expression of an if statement and the controlling
   expression of an iteration- statement shall have essentially Boolean type`".
 
+- New :doc:`misrac-rule-16p7
+  <clang-tidy/checks/misrac/rule-16p7>` check.
+
+  Detects issues in accordance with MISRA C rule 16.7:
+  "`A switch-expression shall not have essentially Boolean type`".
+
 - New :doc:`misrac-rule-18p7
   <clang-tidy/checks/misrac/rule-18p7>` check.
 

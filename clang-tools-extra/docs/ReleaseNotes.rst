@@ -281,6 +281,12 @@ New checks
   Detects issues in accordance with MISRA C rule 18.8:
   "`Variable-length array types shall not be used`".
 
+- New :doc:`misrac-rule-19p2
+  <clang-tidy/checks/misrac/rule-19p2>` check.
+
+  Detects issues in accordance with MISRA C rule 19.2:
+  "`The union keyword should not be used`".
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

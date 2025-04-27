@@ -263,6 +263,12 @@ New checks
   "`The controlling expression of an if statement and the controlling
   expression of an iteration- statement shall have essentially Boolean type`".
 
+- New :doc:`misrac-rule-18p7
+  <clang-tidy/checks/misrac/rule-18p7>` check.
+
+  Detects issues in accordance with MISRA C rule 18.7:
+  "`Flexible array members shall not be declared`".
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

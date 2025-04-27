@@ -18,6 +18,7 @@
 #include "Rule10p8Check.h"
 #include "Rule12p3Check.h"
 #include "Rule14p4Check.h"
+#include "Rule18p7Check.h"
 
 namespace clang::tidy {
 namespace misrac {
@@ -45,6 +46,8 @@ public:
         "misrac-rule-12p3");
     CheckFactories.registerCheck<Rule14p4Check>(
         "misrac-rule-14p4");
+    CheckFactories.registerCheck<Rule18p7Check>(
+        "misrac-rule-18p7");
   }
 };
 

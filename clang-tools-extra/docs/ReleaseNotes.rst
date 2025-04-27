@@ -269,6 +269,12 @@ New checks
   Detects issues in accordance with MISRA C rule 18.7:
   "`Flexible array members shall not be declared`".
 
+- New :doc:`misrac-rule-18p8
+  <clang-tidy/checks/misrac/rule-18p8>` check.
+
+  Detects issues in accordance with MISRA C rule 18.8:
+  "`Variable-length array types shall not be used`".
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

@@ -263,6 +263,12 @@ New checks
   "`The controlling expression of an if statement and the controlling
   expression of an iteration- statement shall have essentially Boolean type`".
 
+- New :doc:`misrac-rule-15p7
+  <clang-tidy/checks/misrac/rule-15p7>` check.
+
+  Detects issues in accordance with MISRA C rule 15.7:
+  "`All if ... else if constructs shall be terminated with an else statement`".
+
 - New :doc:`misrac-rule-16p7
   <clang-tidy/checks/misrac/rule-16p7>` check.
 

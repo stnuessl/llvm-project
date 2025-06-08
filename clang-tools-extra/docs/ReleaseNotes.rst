@@ -263,6 +263,12 @@ New checks
   "`The controlling expression of an if statement and the controlling
   expression of an iteration- statement shall have essentially Boolean type`".
 
+- New :doc:`misrac-rule-15p5
+  <clang-tidy/checks/misrac/rule-15p5>` check.
+
+  Detects issues in accordance with MISRA C rule 15.5:
+  "`A function should have a single point of exit at the end`".
+
 - New :doc:`misrac-rule-15p7
   <clang-tidy/checks/misrac/rule-15p7>` check.
 

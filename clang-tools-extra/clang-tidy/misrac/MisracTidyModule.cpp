@@ -22,6 +22,7 @@
 #include "Rule15p7Check.h"
 #include "Rule16p4Check.h"
 #include "Rule16p7Check.h"
+#include "Rule18p5Check.h"
 #include "Rule18p7Check.h"
 #include "Rule18p8Check.h"
 #include "Rule19p2Check.h"
@@ -60,6 +61,8 @@ public:
         "misrac-rule-16p4");
     CheckFactories.registerCheck<Rule16p7Check>(
         "misrac-rule-16p7");
+    CheckFactories.registerCheck<Rule18p5Check>(
+        "misrac-rule-18p5");
     CheckFactories.registerCheck<Rule18p7Check>(
         "misrac-rule-18p7");
     CheckFactories.registerCheck<Rule18p8Check>(

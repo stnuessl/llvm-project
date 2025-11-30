@@ -287,6 +287,12 @@ New checks
   Detects issues in accordance with MISRA C rule 16.7:
   "`A switch-expression shall not have essentially Boolean type`".
 
+- New :doc:`misrac-rule-18p5
+  <clang-tidy/checks/misrac/rule-18p5>` check.
+
+  Detects issues in accordance with MISRA C rule 18.5:
+  "`Declarations should contain no more than two levels of pointer nesting`".
+
 - New :doc:`misrac-rule-18p7
   <clang-tidy/checks/misrac/rule-18p7>` check.
 

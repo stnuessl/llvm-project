@@ -301,6 +301,7 @@ Clang-Tidy Checks
    :doc:`misrac-rule-16p5 <misrac/rule-16p5>`,
    :doc:`misrac-rule-16p7 <misrac/rule-16p7>`,
    :doc:`misrac-rule-17p1 <misrac/rule-17p1>`,
+   :doc:`misrac-rule-17p8 <misrac/rule-17p8>`,
    :doc:`misrac-rule-18p5 <misrac/rule-18p5>`,
    :doc:`misrac-rule-18p7 <misrac/rule-18p7>`,
    :doc:`misrac-rule-18p8 <misrac/rule-18p8>`,

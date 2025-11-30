@@ -275,6 +275,12 @@ New checks
   Detects issues in accordance with MISRA C rule 15.7:
   "`All if ... else if constructs shall be terminated with an else statement`".
 
+- New :doc:`misrac-rule-16p4
+  <clang-tidy/checks/misrac/rule-16p4>` check.
+
+  Detects issues in accordance with MISRA C rule 16.4:
+  "`Every switch statement shall have a default label`".
+
 - New :doc:`misrac-rule-16p7
   <clang-tidy/checks/misrac/rule-16p7>` check.
 

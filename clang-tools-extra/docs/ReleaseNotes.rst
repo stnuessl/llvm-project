@@ -294,6 +294,12 @@ New checks
   Detects issues in accordance with MISRA C rule 16.7:
   "`A switch-expression shall not have essentially Boolean type`".
 
+- New :doc:`misrac-rule-17p1
+  <clang-tidy/checks/misrac/rule-17p1>` check.
+
+  Detects issues in accordance with MISRA C rule 17.1:
+  "`The features of <stdarg.h> shall not be used`".
+
 - New :doc:`misrac-rule-18p5
   <clang-tidy/checks/misrac/rule-18p5>` check.
 

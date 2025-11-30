@@ -269,6 +269,13 @@ New checks
   Detects issues in accordance with MISRA C rule 15.5:
   "`A function should have a single point of exit at the end`".
 
+- New :doc:`misrac-rule-15p6
+  <clang-tidy/checks/misrac/rule-15p6>` check.
+
+  Detects issues in accordance with MISRA C rule 15.6:
+  "`The body of an iteration-statement or a selection-statement shall be a
+  compound-statement`".
+
 - New :doc:`misrac-rule-15p7
   <clang-tidy/checks/misrac/rule-15p7>` check.
 

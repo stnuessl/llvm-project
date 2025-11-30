@@ -6,6 +6,7 @@ set(LLVM_LINK_COMPONENTS
 add_clang_library(clangTidyMisracModule
   MisracTidyModule.cpp
   EssentialTypeCheckBase.cpp
+  Rule15p6Check.cpp
 
   LINK_LIBS
   clangTidy

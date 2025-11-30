@@ -288,6 +288,13 @@ New checks
   Detects issues in accordance with MISRA C rule 16.4:
   "`Every switch statement shall have a default label`".
 
+- New :doc:`misrac-rule-16p5
+  <clang-tidy/checks/misrac/rule-16p5>` check.
+
+  Detects issues in accordance with MISRA C rule 16.5:
+  "`A default label shall appear as either the ﬁrst or the last switch label
+  of a switch statement`".
+
 - New :doc:`misrac-rule-16p7
   <clang-tidy/checks/misrac/rule-16p7>` check.
 

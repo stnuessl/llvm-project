@@ -303,6 +303,7 @@ Clang-Tidy Checks
    :doc:`misrac-rule-18p7 <misrac/rule-18p7>`,
    :doc:`misrac-rule-18p8 <misrac/rule-18p8>`,
    :doc:`misrac-rule-19p2 <misrac/rule-19p2>`,
+   :doc:`misrac-rule-8p10 <misrac/rule-8p10>`, "Yes"
    :doc:`modernize-avoid-bind <modernize/avoid-bind>`, "Yes"
    :doc:`modernize-avoid-c-arrays <modernize/avoid-c-arrays>`,
    :doc:`modernize-concat-nested-namespaces <modernize/concat-nested-namespaces>`, "Yes"

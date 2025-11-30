@@ -318,6 +318,12 @@ New checks
   Detects issues in accordance with MISRA C rule 19.2:
   "`The union keyword should not be used`".
 
+- New :doc:`misrac-rule-8p10
+  <clang-tidy/checks/misrac/rule-8p10>` check.
+
+  Detects issues in accordance with MISRA C rule 8.10:
+  "`An inline function shall be declared with the static storage class`".
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

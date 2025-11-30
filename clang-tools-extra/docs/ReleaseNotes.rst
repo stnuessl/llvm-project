@@ -337,6 +337,12 @@ New checks
   Detects issues in accordance with MISRA C rule 8.10:
   "`An inline function shall be declared with the static storage class`".
 
+- New :doc:`misrac-rule-9p3
+  <clang-tidy/checks/misrac/rule-9p3>` check.
+
+  Detects issues in accordance with MISRA C rule 9.3:
+  "`Arrays shall not be partially initialized`".
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 

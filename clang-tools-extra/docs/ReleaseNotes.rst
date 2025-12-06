@@ -313,6 +313,13 @@ New checks
   Detects issues in accordance with MISRA C rule 17.8:
   "`A function parameter should not be modified`".
 
+- New :doc:`misrac-rule-17p12
+  <clang-tidy/checks/misrac/rule-17p12>` check.
+
+  Detects issues in accordance with MISRA C rule 17.12:
+  "`A function identifier should only be used with either a preceding &, or
+  with a parenthesized parameter list`".
+
 - New :doc:`misrac-rule-18p5
   <clang-tidy/checks/misrac/rule-18p5>` check.
 

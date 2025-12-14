@@ -282,6 +282,13 @@ New checks
   Detects issues in accordance with MISRA C rule 15.7:
   "`All if ... else if constructs shall be terminated with an else statement`".
 
+- New :doc:`misrac-rule-16p2
+  <clang-tidy/checks/misrac/rule-16p2>` check.
+
+  Detects issues in accordance with MISRA C rule 16.2:
+  "`A switch label shall only be used when the most closely-enclosing compound
+  statement is the body of a switch statement`".
+
 - New :doc:`misrac-rule-16p4
   <clang-tidy/checks/misrac/rule-16p4>` check.
 

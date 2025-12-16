@@ -289,6 +289,12 @@ New checks
   "`A switch label shall only be used when the most closely-enclosing compound
   statement is the body of a switch statement`".
 
+- New :doc:`misrac-rule-16p3
+  <clang-tidy/checks/misrac/rule-16p3>` check.
+
+  Detects issues in accordance with MISRA C rule 16.3:
+  "`An unconditional break statement shall terminate every switch-clause`".
+
 - New :doc:`misrac-rule-16p4
   <clang-tidy/checks/misrac/rule-16p4>` check.
 

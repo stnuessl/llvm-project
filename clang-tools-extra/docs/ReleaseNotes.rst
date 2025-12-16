@@ -339,6 +339,13 @@ New checks
   "`A function identifier should only be used with either a preceding &, or
   with a parenthesized parameter list`".
 
+- New :doc:`misrac-rule-18p4
+  <clang-tidy/checks/misrac/rule-18p4>` check.
+
+  Detects issues in accordance with MISRA C rule 18.4:
+  "`The +, -, += and -= operators should not be applied to an expression of
+  Pointer type`".
+
 - New :doc:`misrac-rule-18p5
   <clang-tidy/checks/misrac/rule-18p5>` check.
 

@@ -263,6 +263,12 @@ New checks
   "`The controlling expression of an if statement and the controlling
   expression of an iteration- statement shall have essentially Boolean type`".
 
+- New :doc:`misrac-rule-15p1
+  <clang-tidy/checks/misrac/rule-15p1>` check.
+
+  Detects issues in accordance with MISRA C rule 15.1:
+  "`The goto statement should not be used`".
+
 - New :doc:`misrac-rule-15p5
   <clang-tidy/checks/misrac/rule-15p5>` check.
 

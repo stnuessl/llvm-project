@@ -269,6 +269,13 @@ New checks
   Detects issues in accordance with MISRA C rule 15.1:
   "`The goto statement should not be used`".
 
+- New :doc:`misrac-rule-15p2
+  <clang-tidy/checks/misrac/rule-15p2>` check.
+
+  Detects issues in accordance with MISRA C rule 15.2:
+  "`The goto statement shall jump to a label declared later in the same
+  function`".
+
 - New :doc:`misrac-rule-15p5
   <clang-tidy/checks/misrac/rule-15p5>` check.
 

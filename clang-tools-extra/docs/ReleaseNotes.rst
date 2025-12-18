@@ -383,6 +383,13 @@ New checks
   Detects issues in accordance with MISRA C rule 8.2:
   "`Function types shall be in prototype form with named parameters`".
 
+- New :doc:`misrac-rule-8p4
+  <clang-tidy/checks/misrac/rule-8p4>` check.
+
+  Detects issues in accordance with MISRA C rule 8.4:
+  "`A compatible declaration shall be visible when an object or function with
+  external linkage is defined`".
+
 - New :doc:`misrac-rule-8p10
   <clang-tidy/checks/misrac/rule-8p10>` check.
 

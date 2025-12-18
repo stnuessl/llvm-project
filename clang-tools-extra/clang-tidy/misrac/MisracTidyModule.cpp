@@ -39,6 +39,7 @@
 #include "Rule8p10Check.h"
 #include "Rule8p14Check.h"
 #include "Rule8p2Check.h"
+#include "Rule8p4Check.h"
 #include "Rule9p3Check.h"
 
 namespace clang::tidy {
@@ -109,6 +110,8 @@ public:
         "misrac-rule-8p14");
     CheckFactories.registerCheck<Rule8p2Check>(
         "misrac-rule-8p2");
+    CheckFactories.registerCheck<Rule8p4Check>(
+        "misrac-rule-8p4");
     CheckFactories.registerCheck<Rule9p3Check>(
         "misrac-rule-9p3");
   }

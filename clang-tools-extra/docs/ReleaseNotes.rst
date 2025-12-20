@@ -383,6 +383,13 @@ New checks
   Detects issues in accordance with MISRA C rule 8.2:
   "`Function types shall be in prototype form with named parameters`".
 
+- New :doc:`misrac-rule-8p3
+  <clang-tidy/checks/misrac/rule-8p3>` check.
+
+  Detects issues in accordance with MISRA C rule 8.3:
+  "`All declarations of an object or function shall use the same names and type
+  qualifiers`".
+
 - New :doc:`misrac-rule-8p4
   <clang-tidy/checks/misrac/rule-8p4>` check.
 

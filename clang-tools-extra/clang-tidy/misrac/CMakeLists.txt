@@ -10,6 +10,7 @@ add_clang_library(clangTidyMisracModule
   Rule16p3Check.cpp
   Rule17p1Check.cpp
   Rule17p8Check.cpp
+  Rule8p3Check.cpp
   Rule8p4Check.cpp
 
   LINK_LIBS

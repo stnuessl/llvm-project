@@ -403,6 +403,13 @@ New checks
   Detects issues in accordance with MISRA C rule 8.10:
   "`An inline function shall be declared with the static storage class`".
 
+- New :doc:`misrac-rule-8p11
+  <clang-tidy/checks/misrac/rule-8p11>` check.
+
+  Detects issues in accordance with MISRA C rule 8.11:
+  "`When an array with external linkage is declared, its size should be
+  explicitly specified`".
+
 - New :doc:`misrac-rule-8p14
   <clang-tidy/checks/misrac/rule-8p14>` check.
 

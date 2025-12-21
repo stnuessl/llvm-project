@@ -30,6 +30,7 @@
 #include "Rule16p7Check.h"
 #include "Rule17p12Check.h"
 #include "Rule17p1Check.h"
+#include "Rule17p7Check.h"
 #include "Rule17p8Check.h"
 #include "Rule18p4Check.h"
 #include "Rule18p5Check.h"
@@ -94,6 +95,8 @@ public:
         "misrac-rule-17p1");
     CheckFactories.registerCheck<Rule17p12Check>(
         "misrac-rule-17p12");
+    CheckFactories.registerCheck<Rule17p7Check>(
+        "misrac-rule-17p7");
     CheckFactories.registerCheck<Rule17p8Check>(
         "misrac-rule-17p8");
     CheckFactories.registerCheck<Rule18p4Check>(

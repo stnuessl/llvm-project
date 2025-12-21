@@ -333,6 +333,13 @@ New checks
   Detects issues in accordance with MISRA C rule 17.1:
   "`The features of <stdarg.h> shall not be used`".
 
+- New :doc:`misrac-rule-17p7
+  <clang-tidy/checks/misrac/rule-17p7>` check.
+
+  Detects issues in accordance with MISRA C rule 17.7:
+  "`The value returned by a function having non-void return type shall be
+  used`".
+
 - New :doc:`misrac-rule-17p8
   <clang-tidy/checks/misrac/rule-17p8>` check.
 

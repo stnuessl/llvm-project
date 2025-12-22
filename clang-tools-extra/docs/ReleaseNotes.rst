@@ -384,6 +384,12 @@ New checks
   Detects issues in accordance with MISRA C rule 19.2:
   "`The union keyword should not be used`".
 
+- New :doc:`misrac-rule-3p1
+  <clang-tidy/checks/misrac/rule-3p1>` check.
+
+  Detects issues in accordance with MISRA C rule 3.1:
+  "`The character sequences /* an d // shall not be used within a comment`".
+
 - New :doc:`misrac-rule-8p2
   <clang-tidy/checks/misrac/rule-8p2>` check.
 

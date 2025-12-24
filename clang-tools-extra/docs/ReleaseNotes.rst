@@ -390,6 +390,12 @@ New checks
   Detects issues in accordance with MISRA C rule 3.1:
   "`The character sequences /* an d // shall not be used within a comment`".
 
+- New :doc:`misrac-rule-3p2
+  <clang-tidy/checks/misrac/rule-3p2>` check.
+
+  Detects issues in accordance with MISRA C rule 3.2:
+  "`Line-splicing shall not be used in // comments`".
+
 - New :doc:`misrac-rule-8p2
   <clang-tidy/checks/misrac/rule-8p2>` check.
 

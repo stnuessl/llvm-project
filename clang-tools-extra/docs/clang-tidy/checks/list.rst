@@ -314,6 +314,7 @@ Clang-Tidy Checks
    :doc:`misrac-rule-18p8 <misrac/rule-18p8>`,
    :doc:`misrac-rule-19p2 <misrac/rule-19p2>`,
    :doc:`misrac-rule-3p1 <misrac/rule-3p1>`,
+   :doc:`misrac-rule-3p2 <misrac/rule-3p2>`,
    :doc:`misrac-rule-8p2 <misrac/rule-8p2>`, "Yes"
    :doc:`misrac-rule-8p3 <misrac/rule-8p3>`, "Yes"
    :doc:`misrac-rule-8p4 <misrac/rule-8p4>`, "Yes"

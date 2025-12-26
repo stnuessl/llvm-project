@@ -402,6 +402,12 @@ New checks
   Detects issues in accordance with MISRA C rule 7.1:
   "`Octal constants shall not be used`".
 
+- New :doc:`misrac-rule-7p3
+  <clang-tidy/checks/misrac/rule-7p3>` check.
+
+  Detects issues in accordance with MISRA C rule 7.3:
+  "`The lowercase character 'l' shall not be used in a literal suffix`".
+
 - New :doc:`misrac-rule-8p2
   <clang-tidy/checks/misrac/rule-8p2>` check.
 

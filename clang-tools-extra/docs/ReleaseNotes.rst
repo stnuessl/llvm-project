@@ -256,6 +256,12 @@ New checks
   Detects issues in accordance with MISRA C rule 12.3:
   "`The comma operator should not be used`".
 
+- New :doc:`misrac-rule-13p4
+  <clang-tidy/checks/misrac/rule-13p4>` check.
+
+  Detects issues in accordance with MISRA C rule 13.4:
+  "`The result of an assignment operator should not be used`".
+
 - New :doc:`misrac-rule-14p4
   <clang-tidy/checks/misrac/rule-14p4>` check.
 

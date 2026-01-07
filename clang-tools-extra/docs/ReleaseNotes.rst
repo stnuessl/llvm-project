@@ -250,6 +250,12 @@ New checks
   "`The value of a composite expression shall not be cast to a different
   essential type category or a wider essential type`".
 
+- New :doc:`misrac-rule-12p1
+  <clang-tidy/checks/misrac/rule-12p1>` check.
+
+  Detects issues in accordance with MISRA C rule 12.1:
+  "`The precedence of operators within expressions should be made explicit`".
+
 - New :doc:`misrac-rule-12p3
   <clang-tidy/checks/misrac/rule-12p3>` check.
 

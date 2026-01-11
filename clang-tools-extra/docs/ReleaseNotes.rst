@@ -396,6 +396,13 @@ New checks
   Detects issues in accordance with MISRA C rule 19.2:
   "`The union keyword should not be used`".
 
+- New :doc:`misrac-rule-20p2
+  <clang-tidy/checks/misrac/rule-20p2>` check.
+
+  Detects issues in accordance with MISRA C rule 20.2:
+  "`The ', " or \ characters and the /* or // character sequences shall not
+  occur in a header file name`".
+
 - New :doc:`misrac-rule-3p1
   <clang-tidy/checks/misrac/rule-3p1>` check.
 

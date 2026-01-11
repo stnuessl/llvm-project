@@ -250,6 +250,13 @@ New checks
   "`The value of a composite expression shall not be cast to a different
   essential type category or a wider essential type`".
 
+- New :doc:`misrac-rule-11p8
+  <clang-tidy/checks/misrac/rule-11p8>` check.
+
+  Detects issues in accordance with MISRA C rule 11.8:
+  "`A cast shall not remove any const or volatile qualification from the type
+  pointed to by a pointer"`.
+
 - New :doc:`misrac-rule-12p1
   <clang-tidy/checks/misrac/rule-12p1>` check.
 

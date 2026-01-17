@@ -295,6 +295,13 @@ New checks
   "`The goto statement shall jump to a label declared later in the same
   function`".
 
+- New :doc:`misrac-rule-15p4
+  <clang-tidy/checks/misrac/rule-15p4>` check.
+
+  Detects issues in accordance with MISRA C rule 15.4:
+  "`There should be no more than one break or goto statement used to terminate
+  any iteration statement`".
+
 - New :doc:`misrac-rule-15p5
   <clang-tidy/checks/misrac/rule-15p5>` check.
 

@@ -299,6 +299,7 @@ Clang-Tidy Checks
    :doc:`misrac-rule-14p4 <misrac/rule-14p4>`,
    :doc:`misrac-rule-15p1 <misrac/rule-15p1>`,
    :doc:`misrac-rule-15p2 <misrac/rule-15p2>`,
+   :doc:`misrac-rule-15p4 <misrac/rule-15p4>`,
    :doc:`misrac-rule-15p5 <misrac/rule-15p5>`,
    :doc:`misrac-rule-15p6 <misrac/rule-15p6>`,
    :doc:`misrac-rule-15p7 <misrac/rule-15p7>`,

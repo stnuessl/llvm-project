@@ -250,6 +250,13 @@ New checks
   "`The value of a composite expression shall not be cast to a different
   essential type category or a wider essential type`".
 
+- New :doc:`misrac-rule-11p5
+  <clang-tidy/checks/misrac/rule-11p5>` check.
+
+  Detects issues in accordance with MISRA C rule 11.5:
+  "`A conversion should not be performed from pointer to void into pointer to
+  object`".
+
 - New :doc:`misrac-rule-11p8
   <clang-tidy/checks/misrac/rule-11p8>` check.
 

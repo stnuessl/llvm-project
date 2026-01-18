@@ -257,6 +257,13 @@ New checks
   "`A cast shall not remove any const or volatile qualification from the type
   pointed to by a pointer"`.
 
+- New :doc:`misrac-rule-11p9
+  <clang-tidy/checks/misrac/rule-11p9>` check.
+
+  Detects issues in accordance with MISRA C rule 11.9:
+  "`The macro NULL shall be the only permitted form of integer null pointer
+  constant`".
+
 - New :doc:`misrac-rule-12p1
   <clang-tidy/checks/misrac/rule-12p1>` check.
 

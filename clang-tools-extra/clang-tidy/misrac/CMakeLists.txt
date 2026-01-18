@@ -7,6 +7,7 @@ add_clang_library(clangTidyMisracModule
   MisracTidyModule.cpp
   EssentialTypeCheckBase.cpp
   Rule11p8Check.cpp
+  Rule11p9Check.cpp
   Rule12p1Check.cpp
   Rule15p4Check.cpp
   Rule15p6Check.cpp

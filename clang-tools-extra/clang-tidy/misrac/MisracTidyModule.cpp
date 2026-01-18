@@ -17,6 +17,7 @@
 #include "Rule10p7Check.h"
 #include "Rule10p8Check.h"
 #include "Rule11p8Check.h"
+#include "Rule11p9Check.h"
 #include "Rule12p1Check.h"
 #include "Rule12p3Check.h"
 #include "Rule13p4Check.h"
@@ -78,6 +79,8 @@ public:
         "misrac-rule-10p8");
     CheckFactories.registerCheck<Rule11p8Check>(
         "misrac-rule-11p8");
+    CheckFactories.registerCheck<Rule11p9Check>(
+        "misrac-rule-11p9");
     CheckFactories.registerCheck<Rule12p1Check>(
         "misrac-rule-12p1");
     CheckFactories.registerCheck<Rule12p3Check>(

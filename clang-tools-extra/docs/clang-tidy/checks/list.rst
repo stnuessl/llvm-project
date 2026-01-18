@@ -293,6 +293,7 @@ Clang-Tidy Checks
    :doc:`misrac-rule-10p7 <misrac/rule-10p7>`,
    :doc:`misrac-rule-10p8 <misrac/rule-10p8>`,
    :doc:`misrac-rule-11p8 <misrac/rule-11p8>`,
+   :doc:`misrac-rule-11p9 <misrac/rule-11p9>`, "Yes"
    :doc:`misrac-rule-12p1 <misrac/rule-12p1>`, "Yes"
    :doc:`misrac-rule-12p3 <misrac/rule-12p3>`,
    :doc:`misrac-rule-13p4 <misrac/rule-13p4>`, "Yes"

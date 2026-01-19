@@ -488,6 +488,13 @@ New checks
   "`When an array with external linkage is declared, its size should be
   explicitly specified`".
 
+- New :doc:`misrac-rule-8p12
+  <clang-tidy/checks/misrac/rule-8p12>` check.
+
+  Detects issues in accordance with MISRA C rule 8.12:
+  "`Within an enumerator list, the value of an implicitly-specified enumeration
+  constant shall be unique`".
+
 - New :doc:`misrac-rule-8p14
   <clang-tidy/checks/misrac/rule-8p14>` check.
 

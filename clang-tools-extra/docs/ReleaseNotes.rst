@@ -475,6 +475,13 @@ New checks
   "`A compatible declaration shall be visible when an object or function with
   external linkage is defined`".
 
+- New :doc:`misrac-rule-8p8
+  <clang-tidy/checks/misrac/rule-8p8>` check.
+
+  Detects issues in accordance with MISRA C rule 8.8:
+  "`The static storage class specifier shall be used in all declarations of
+  objects and functions that have internal linkage`".
+
 - New :doc:`misrac-rule-8p10
   <clang-tidy/checks/misrac/rule-8p10>` check.
 

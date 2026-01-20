@@ -19,6 +19,7 @@ add_clang_library(clangTidyMisracModule
   Rule8p12Check.cpp
   Rule8p3Check.cpp
   Rule8p4Check.cpp
+  Rule8p8Check.cpp
 
   LINK_LIBS
   clangTidy

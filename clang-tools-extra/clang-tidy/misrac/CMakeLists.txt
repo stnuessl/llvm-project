@@ -16,6 +16,7 @@ add_clang_library(clangTidyMisracModule
   Rule17p1Check.cpp
   Rule17p8Check.cpp
   Rule20p2Check.cpp
+  Rule20p4Check.cpp
   Rule8p12Check.cpp
   Rule8p3Check.cpp
   Rule8p4Check.cpp

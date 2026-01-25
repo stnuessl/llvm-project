@@ -431,6 +431,12 @@ New checks
   "`The ', " or \ characters and the /* or // character sequences shall not
   occur in a header file name`".
 
+- New :doc:`misrac-rule-20p4
+  <clang-tidy/checks/misrac/rule-20p4>` check.
+
+  Detects issues in accordance with MISRA C rule 20.4:
+  "`A macro shall not be defined with the same name as a keyword`".
+
 - New :doc:`misrac-rule-3p1
   <clang-tidy/checks/misrac/rule-3p1>` check.
 

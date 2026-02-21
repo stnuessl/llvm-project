@@ -257,6 +257,13 @@ New checks
   "`Conversions shall not be performed between a pointer to a function
   and any other type`".
 
+- New :doc:`misrac-rule-11p2
+  <clang-tidy/checks/misrac/rule-11p2>` check.
+
+  Detects issues in accordance with MISRA C rule 11.2:
+  "`Conversions shall not be performed between a pointer to an incomplete type
+  and any other type`".
+
 - New :doc:`misrac-rule-11p5
   <clang-tidy/checks/misrac/rule-11p5>` check.
 

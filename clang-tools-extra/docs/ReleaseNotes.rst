@@ -463,6 +463,12 @@ New checks
   Detects issues in accordance with MISRA C rule 3.2:
   "`Line-splicing shall not be used in // comments`".
 
+- New :doc:`misrac-rule-6p3
+  <clang-tidy/checks/misrac/rule-6p3>` check.
+
+  Detects issues in accordance with MISRA C rule 6.3:
+  "`A bit field shall not be declared as a member of a union`".
+
 - New :doc:`misrac-rule-7p1
   <clang-tidy/checks/misrac/rule-7p1>` check.
 

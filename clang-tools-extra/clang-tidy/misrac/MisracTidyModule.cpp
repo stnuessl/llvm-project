@@ -49,6 +49,7 @@
 #include "Rule20p4Check.h"
 #include "Rule3p1Check.h"
 #include "Rule3p2Check.h"
+#include "Rule6p3Check.h"
 #include "Rule7p1Check.h"
 #include "Rule7p3Check.h"
 #include "Rule8p10Check.h"
@@ -149,6 +150,8 @@ public:
         "misrac-rule-3p1");
     CheckFactories.registerCheck<Rule3p2Check>(
         "misrac-rule-3p2");
+    CheckFactories.registerCheck<Rule6p3Check>(
+        "misrac-rule-6p3");
     CheckFactories.registerCheck<Rule7p1Check>(
         "misrac-rule-7p1");
     CheckFactories.registerCheck<Rule7p3Check>(

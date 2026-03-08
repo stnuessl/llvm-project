@@ -151,6 +151,11 @@ New checks
   Finds function and variable declarations inside anonymous namespace and
   suggests replacing them with ``static`` declarations.
 
+- New :doc:`misrac-rule-13p6
+  <clang-tidy/checks/misrac/rule-13p6>` check.
+
+  FIXME: Write a short description.
+
 - New :doc:`modernize-use-scoped-lock
   <clang-tidy/checks/modernize/use-scoped-lock>` check.
 
